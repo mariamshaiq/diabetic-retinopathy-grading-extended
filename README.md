@@ -256,13 +256,3 @@ GradCAM visualisations are generated in Sections 9 (B2 model) and 11 (CORAL mode
 - Messidor-2 Dataset: https://www.adcis.net/en/third-party/messidor2/
 
 ---
-
-## Citation
-
-If you use this code, please cite:
-
-```
-Ali, E., Siddiqa, F., & Shaiq, M. (2026). DR-Scope: Extending Diabetic Retinopathy Grading
-with CORAL Ordinal Loss and Cross-Dataset Generalisation. FAST-NUCES, Deep Learning
-Assignment 3, CS-4112.
-```
