@@ -23,17 +23,18 @@ Cross-dataset generalisation is also evaluated on **Messidor-2** to assess domai
 ```
 diabetic-retinopathy-grading-extended/
 │
-├── Assignment_3_updated.ipynb   # Main notebook (Sections 1–13)
-├── README.md                    # This file
+├── EfficientNet_CORAL_.ipynb        # Main notebook (Sections 1–13)
+├── Extending DR Grading with CORAL Ordinal Loss and Cross-Dataset - Report  # Report PDF
+├── README.md                        # This file
 │
-└── outputs/                     # Generated during training (not tracked)
-    ├── best_model.pth           # Best B2 checkpoint (by val accuracy)
-    ├── coral_best_model.pth     # Best CORAL checkpoint (by val loss)
-    ├── confusion_matrix.png     # B2 confusion matrix
-    ├── coral_confusion_matrix.png
-    ├── gradcam_b2.png           # GradCAM visualisations — B2 model
-    ├── gradcam_coral.png        # GradCAM visualisations — CORAL model
-    └── results_comparison.csv   # Final metric table
+└── outputs/                         # Generated during training
+    ├── best_model.pth               # Best B2 checkpoint (by val accuracy)
+    ├── class_distribution.png       # Dataset class distribution plot
+    ├── confusion_matrix.png         # Confusion matrix
+    ├── gradcam_visualisations.png   # GradCAM visualisations
+    ├── results_comparison.csv       # Final metric table
+    ├── sample_grid.png              # Sample image grid
+    └── training_curves.png          # Training loss/accuracy curves
 ```
 
 ---
